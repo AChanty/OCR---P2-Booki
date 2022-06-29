@@ -355,6 +355,8 @@ a:visited {
     font-size: 21px;
 }
 .container {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -432,10 +434,6 @@ h3 {
 .hebergement-cards a {
     margin-left: 3%;
     font-weight: bold;
-}
-.hebergement-box {
-    width: 100%;
-    margin: auto;
 }
 /* aside */
 .aside-container {
