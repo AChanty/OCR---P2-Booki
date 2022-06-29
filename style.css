@@ -635,10 +635,13 @@ ul a {
     .container {
         flex-direction: column-reverse;
    }
+   .container h3, .container .card-text, .container .stars {
+    margin-left: 0;
+   }
     .hebergements-container {
-        width: 100%;
+        width: 90%;
+        margin: auto;
         background-color: white;
-        margin-right: 0;
         padding: 0;
    }
     .hebergement-cards {
@@ -656,6 +659,9 @@ ul a {
     .hebergement-cards a {
         margin-left: 0;
         display: block;
+   }
+   .hebergements {
+    margin-left: 0;
    }
     .hebergements h2 {
         margin: 50px 0 30px 0;
