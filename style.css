@@ -639,7 +639,7 @@ ul a {
     margin-left: 0;
    }
     .hebergements-container {
-        width: 90%;
+        width: 100%;
         margin: auto;
         background-color: white;
         padding: 0;
@@ -693,6 +693,9 @@ ul a {
    }
    .container {
     width: 100%;
+   }
+   .hebergements-container {
+    width: 90%;
    }
     .hebergement-cards {
         display: block;
