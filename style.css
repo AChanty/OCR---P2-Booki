@@ -685,6 +685,9 @@ ul a {
     .menu a {
         border-bottom: solid 3px var(--sub-color);
    }
+   .container {
+    width: 100%;
+   }
     .hebergement-cards {
         display: block;
    }
