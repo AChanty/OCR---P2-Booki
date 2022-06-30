@@ -615,7 +615,7 @@ ul a {
         display: contents;
    }
    .input {
-    width: 100%;
+        width: 100%;
    }
     .button {
         border-radius: 15px;
@@ -635,9 +635,6 @@ ul a {
     .container {
         flex-direction: column-reverse;
    }
-   .container h3, .container .card-text, .container .stars {
-    margin-left: 0;
-   }
     .hebergements-container {
         width: 100%;
         margin: auto;
@@ -652,16 +649,12 @@ ul a {
         padding: 0;
         width: 100%;
    }
-    .hebergement-cards .card-item img {
-        border-radius: 20px 20px 0 0;
-        width: 100%;
-   }
     .hebergement-cards a {
         margin-left: 0;
         display: block;
    }
    .hebergements {
-    margin-left: 0;
+        margin-left: 0;
    }
     .hebergements h2 {
         margin: 50px 0 30px 0;
@@ -692,10 +685,10 @@ ul a {
         border-bottom: solid 3px var(--sub-color);
    }
    .container {
-    width: 100%;
+        width: 100%;
    }
    .hebergements-container {
-    width: 90%;
+        width: 90%;
    }
     .hebergement-cards {
         display: block;
@@ -704,11 +697,11 @@ ul a {
         width: 100%;
         padding: 1%;
    }
+   .container h3, .container .card-text, .container .stars {
+        margin-left: 3%;
+   }
     .card-item .card-title {
         margin-top: 2%;
-   }
-    .card-item .card-text, .card-item .card-title, .card-item .stars {
-        text-align: center;
    }
     .aside-container {
         border-radius: 0;
@@ -725,11 +718,11 @@ ul a {
         margin-bottom: 25px;
    }
    .activites .section-container .double-item {
-    height: 16%;
-    margin: 0;
+        height: 16%;
+        margin: 0;
    }
    .activites {
-    margin-bottom: 30px;
+        margin-bottom: 30px;
     }
     .section-item img, .double-item img {
         height: 80%;
