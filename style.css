@@ -387,9 +387,8 @@ a:visited {
     flex-wrap: wrap;
 }
 .hebergements-container .card-item {
-    min-height: 200px;
-    max-height: 500px;
     padding: 0.5%;
+    padding-bottom: 1%;
     margin-bottom: 3%;
 }
 .hebergement-cards .more {
