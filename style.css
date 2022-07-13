@@ -387,7 +387,7 @@ a:visited {
     flex-wrap: wrap;
 }
 .hebergements-container .card-item {
-    height: 240px;
+    height: 200px;
     padding: 0.5%;
     margin-bottom: 3%;
 }
@@ -409,28 +409,30 @@ a:visited {
 }
 .container h3, .container .card-text, .container .stars {
     margin-left: 5%;
+    margin-top: 1%;
 }
 .hebergement-cards .card-item img {
     margin: auto;
     border-radius: 20px 20px 0 0;
     width: 100%;
-    height: 140px;
+    height: 115px;
     object-fit: cover;
 }
 h3 {
     font-weight: bold;
-    font-size: 16px;
-    margin: 3% 0 0 0;
-}
-.card-text {
     font-size: 14px;
     margin: 0;
-    line-height: 30px;
+}
+.card-text {
+    font-size: 12px;
+    margin: 0;
+    line-height: 25px;
     font-weight: 400;
 }
 .stars {
     margin: 0;
     color: var(--main-color);
+    font-size: 12px;
 }
 .grey-star {
     color: var(--background-color);
@@ -469,7 +471,7 @@ h3 {
 .aside-cards-wrapper .card-item {
     width: 100%;
     display: flex;
-    padding: 1.5%;
+    padding: 0.5%;
     color: black;
 }
 .aside-description {
@@ -484,7 +486,7 @@ h3 {
 .aside-cards-wrapper img {
     border-radius: 20px 0px 0px 20px;
     width: 40%;
-    height: 160px;
+    height: 135px;
     margin: 0;
     margin-top: auto;
     margin-bottom: auto;
@@ -624,7 +626,7 @@ ul a {
    .fa-magnifying-glass:before, .fa-search:before {
     content: "\f002" !important;
     font-family: "Font Awesome 6 Free";
-}
+    }
    .input {
         width: 100%;
    }
@@ -646,6 +648,15 @@ ul a {
    }
     .container {
         flex-direction: column-reverse;
+   }
+   h3 {
+    font-size: 16px;
+   }
+   .card-item .card-text {
+    font-size: 14px;
+   }
+   .stars {
+    font-size: 14px;
    }
     .hebergements-container {
         width: 100%;
