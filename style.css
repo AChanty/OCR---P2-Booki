@@ -387,7 +387,8 @@ a:visited {
     flex-wrap: wrap;
 }
 .hebergements-container .card-item {
-    height: 200px;
+    min-height: 200px;
+    max-height: 500px;
     padding: 0.5%;
     margin-bottom: 3%;
 }
@@ -420,11 +421,11 @@ a:visited {
 }
 h3 {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
 }
 .card-text {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     line-height: 25px;
     font-weight: 400;
@@ -432,7 +433,7 @@ h3 {
 .stars {
     margin: 0;
     color: var(--main-color);
-    font-size: 12px;
+    font-size: 14px;
 }
 .grey-star {
     color: var(--background-color);
@@ -649,15 +650,6 @@ ul a {
     .container {
         flex-direction: column-reverse;
    }
-   h3 {
-    font-size: 16px;
-   }
-   .card-item .card-text {
-    font-size: 14px;
-   }
-   .stars {
-    font-size: 14px;
-   }
     .hebergements-container {
         width: 100%;
         margin: auto;
@@ -719,8 +711,8 @@ ul a {
    }
     .hebergement-cards .card-item {
         width: 100%;
-        height: 260px;
         padding: 1%;
+        padding-bottom: 3%;
    }
    .hebergement-cards .card-item img {
     height: 160px;
