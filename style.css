@@ -486,7 +486,7 @@ h3 {
 }
 .aside-cards-wrapper img {
     border-radius: 20px 0px 0px 20px;
-    width: 40%;
+    width: 35%;
     height: 135px;
     margin: 0;
     margin-top: auto;
@@ -687,6 +687,9 @@ ul a {
         margin-bottom: 20px;
         padding: 0.5%;
    }
+   .aside-cards-wrapper img {
+    width: 20%;
+   }
 }
 @media screen and (max-width: 768px) {
     .logo {
@@ -730,6 +733,9 @@ ul a {
    }
     .aside-cards-wrapper .aside-description h3, .aside-cards-wrapper .aside-description p {
         text-align: left;
+   }
+   .aside-cards-wrapper img {
+    width: 25%;
    }
     .section-container {
         flex-direction: column;
