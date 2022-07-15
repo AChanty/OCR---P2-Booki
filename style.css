@@ -675,7 +675,6 @@ ul a {
         margin: 50px 0 30px 0;
    }
     div.hebergement-cards .more {
-        margin-top: 10%;
         display: block;
    }
     .aside-title h2 {
@@ -723,6 +722,9 @@ ul a {
     .card-item .card-title {
         margin-top: 2%;
    }
+    div.hebergement-cards .more {
+    margin-top: 32px;
+    }
     .aside-container {
         border-radius: 0;
    }
@@ -741,6 +743,9 @@ ul a {
         height: 16%;
         margin: 0;
    }
+   .activites-title h2 {
+    padding-top: 25px;
+    }
    .activites {
         margin-bottom: 30px;
     }
