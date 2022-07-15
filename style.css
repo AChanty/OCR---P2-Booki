@@ -392,8 +392,9 @@ a:visited {
     margin-bottom: 3%;
 }
 .hebergement-cards .more {
+    font-size: 18px;
     margin-top: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     width: 100%;
 }
 .hebergement-cards .more:hover {
@@ -674,7 +675,7 @@ ul a {
         margin: 50px 0 30px 0;
    }
     div.hebergement-cards .more {
-        margin: 30px 0 50px 0;
+        margin-top: 10%;
         display: block;
    }
     .aside-title h2 {
@@ -748,5 +749,8 @@ ul a {
    }
     .footer-container {
         flex-direction: column;
+   }
+   .footer-element {
+    width: auto;
    }
 }
