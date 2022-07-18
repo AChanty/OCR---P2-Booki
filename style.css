@@ -285,8 +285,7 @@ a:visited {
     color: var(--main-color);
     transition: .3s;
 }
-.fa-magnifying-glass:before, .fa-search:before { /*
-    <div class="search-dekstop"><button type="submit" class="button">Rechercher</button></div>*/
+.fa-magnifying-glass:before, .fa-search:before {
     content: "Rechercher" !important;
     font-family: 'Raleway', sans-serif;
 }
