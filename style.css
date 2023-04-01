@@ -646,6 +646,10 @@ ul a {
     .filters ul li {
         margin-bottom: 10px;
    }
+   .filters ul li:last-child {
+    margin-bottom: 10px;
+    padding-right: 0px;
+    }
     .container {
         flex-direction: column-reverse;
    }
